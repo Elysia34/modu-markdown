@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#FF0F1115</color>
+    <color name="bgLight">#FFFFFFFF</color>
+
+    <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">#FFE9ECF1</item>
+        <item name="android:colorAccent">#FF6C8CFF</item>
+    </style>
+
+    <style name="AppTheme.Light" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bgLight</item>
+        <item name="android:colorBackground">@color/bgLight</item>
+        <item name="android:statusBarColor">@color/bgLight</item>
+        <item name="android:navigationBarColor">@color/bgLight</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">#FF1B1F24</item>
+        <item name="android:colorAccent">#FF2F6FEB</item>
+    </style>
+</resources>
