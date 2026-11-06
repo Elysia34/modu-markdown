@@ -99,6 +99,12 @@ export MODU_KEY_PASS=******   # 不设则与 storepass 相同
 
 不提供时会自动生成一个本地调试签名（`build/debug.keystore`，已被 .gitignore 忽略），**不要用于发布**。
 
+### 持续集成（可选）
+
+`docs/github-actions-example.yml` 是一份现成的 GitHub Actions 配置（推送即构建 debug APK 并上传为 artifact）。
+
+要用的话：把它移动到 `.github/workflows/android.yml` 再推送。注意 GitHub 要求推送包含 workflow 文件的 token 具备 `workflow` 权限，否则会被拒绝。
+
 ## 项目结构
 
 ```
